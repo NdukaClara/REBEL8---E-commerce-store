@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REBEL8 | Account</title>
+    <link rel="stylesheet" href="/components.css">
+    <link rel="stylesheet" href="/home.css">
+    <link rel="stylesheet" href="/product.css">
+    <link rel="stylesheet" href="/cart.css">
+    <link rel="stylesheet" href="/account.css">
+</head>
+<body>  
+    <!-- Nav Section -->
+    <section id="nav">
+    <div class="nav">
+        <div class="container">
+            <div class="nav_wrapper">
+                <div class="nav_logo">
+                    <a href="index.html"><img src="./images/REBEL8 Logo - BigCommerce Store Logo.png" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul class="nav_list">
+                        <div class="menu_close">
+                            <img src="./images/close.png" alt="">
+                        </div>
+                        <div class="nav_list_wrapper">
+                        <li><a href="index.html">Home</a>
+                        <li><a href="product.html">Products</a>
+                       <li><a href="product_details.html">Details</a>
+                        <li><a href="account.html" class="active">Account</a>
+                        </li>
+                        </div>
+                    </ul>
+                </nav>
+                <div class="nav_cart">
+                    <a href="cart.html"><img src="./images/cart.png" class="checkout" alt="cart">
+                    <span id="checkout_items" class="checkout_items">5</span></a>
+                </div> 
+                 <div class="menu_icon">
+                        <img src="./images/menu.png" alt="">
+                 </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--End Nav Section -->
+    <!-- account page -->
+    <section id="account_page">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                <img src="./images/pexels-diogenes-sousa-7913098.png" width="100%">
+                </div>
+                <div class="col-2">
+                    <div class="form_container">
+                        <div class="form_btn">
+                            <span onclick="login()">Login</span>
+                            <span onclick="register()">Register</span>
+                            <hr id="indicator">
+                        </div>
+                        <form id="loginForm">
+                            <input type="text" placeholder="Username">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                            <a href="#">Forgot Password</a>
+                        </form>
+                        <form id="regForm">
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End account page -->
+   
+<!-- Footer section -->
+<section id="footer">
+        <div class="footer_wrapper">
+            <div class="footer-col-1">
+                <h3>download our app</h3>
+                <p>downlaod app for android and ios mobile.</p>
+                <div class="app_logo">
+                    <a href="#"><img src="./images/play-store.png" alt=""></a>
+                    <a href="#"><img src="./images/app-store.png" alt=""></a>
+                </div>
+            </div>
+                <div class="footer-col-2 footer_logo">
+                    <img src="./images/REBEL8 Logo - BigCommerce Store Logo.png" alt="logo"></a>
+                    <p class="footer_desc">be each day beautiful...</p>
+                    <p class="footer_email">Support Emails - help@rebel8.com, customersupport@rebel8.com</p>
+                    <p>Telephone - 180 0 00 001 , 180 00 00 002</p>
+                </div>
+                <div class="footer-col-3 ">
+                  <h3>useful links</h3>
+                <ul >
+                    <li>
+                    <a href="#">coupons</a> 
+                </li>
+                    <li>
+                        <a href="#">blog posts</a> 
+                    </li>
+                    <li>
+                        <a href="#">return policy</a> 
+                    </li>
+                    <li>
+                        <a href="#">join affiliate</a> 
+                    </li>
+                </ul>
+              </div>
+                <div class="footer-col-4">
+                  <h3>follow us</h3>
+                <ul>
+                    <li>
+                        <a href="#">facebook</a>
+                    </li>
+                    <li> 
+                        <a href="#">twitter</a>
+                    </li>
+                    <li>
+                       <a href="#">instagram</a>
+                    </li>
+                
+                   
+                </ul>
+              </div>
+        </div>
+        <hr>
+        <div class="copyright">&copy Copyright 2021 REBEL8 Stores | All Rights Reserved</div>
+
+</section>
+
+
+<!--End Footer section -->
+
+    <script src="/home.js"></script>
+
+</body>
+</html>

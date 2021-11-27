@@ -1,0 +1,151 @@
+/* all product style */
+.product_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.product_select select {
+  border: 1px solid #ff523b;
+  padding: 5px;
+}
+.product_select select:focus {
+  outline: none;
+}
+.page_btn {
+  margin: 0 auto 80px;
+}
+.page_btn span {
+  display: inline-block;
+  border: 1px solid #ff523b;
+  margin-left: 10px;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.page_btn span:hover {
+  background: #ff523b;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .page_btn span {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+  }
+}
+
+/* single product details styles */
+.col-2{
+  display: block;
+}
+.single_product {
+  margin-top: 80px;
+  max-width: 1100px;
+}
+.single_product .col-2 img {
+  padding: 0;
+}
+.single_product .col-2 {
+  padding: 20px;
+}
+.small_img_row {
+  display: flex;
+  justify-content: space-between;
+}
+.small_img_col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+.product_head p {
+  color: #f12c2c;
+  cursor: pointer;
+}
+.product_head p:hover {
+  color: #fe7c7f;
+}
+.related_product {
+  margin: 75px 0;
+}
+.single_product h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #f12c2c;
+}
+.single_product select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+.single_product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+select:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+.single_product h3 {
+  margin-top: 50px;
+}
+.col-2 p {
+  color: #555;
+  line-height: 25px;
+}
+.cart_btn {
+  color: #fff;
+  background: #f12c2c;
+  padding: 12px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+.cart_btn:hover {
+  background: #ff523b;
+}
+.wish_btn {
+  background: rgb(175, 172, 172);
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  margin-left: 5px;
+}
+.wish_btn:hover {
+  background: rgb(65, 63, 63);
+  color: #fff;
+}
+@media only screen and (max-width: 1024px) {
+  .cart_btn {
+    font-size: 12px;
+  }
+  .wish_btn {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .single_product h1 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+}
+
+
