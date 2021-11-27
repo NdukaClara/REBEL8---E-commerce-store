@@ -16,6 +16,7 @@ table {
     margin-top: 0;
     margin-bottom: 10px;
     color: #555;
+    text-transform: capitalize;
 }
 th {
     text-align: left;
@@ -25,6 +26,7 @@ th {
 }
 td {
     padding: 10px 5px;
+    color: #3b413a;
 }
 td input {
     width: 40px;
@@ -47,6 +49,7 @@ td img {
 .total_price {
     display: flex;
     justify-content: flex-end;
+    color: #3b413a;
 }
 .total_price table {
     border-top: 3px solid #ff523b;
