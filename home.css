@@ -282,18 +282,33 @@
 }
 @media only screen and (max-width:1000px) {
     .category_item {
-        flex-basis: 100%;
         align-items: center;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 10px;
+        justify-content: space-around;
         text-align: center;
     }
-    .category_img {
-        display: flex;
+    .category_img img {
+    width: 250px;
+    height: 250px;
+    margin: 30px 0;
+    object-fit: cover;
+}
+}
+
+@media only screen and (max-width: 768px){
+    .category_item {
+        flex-direction: column;
+        justify-content: center;
+    }
+     .category_img {
        padding-top: 0;
        padding-left: 0;
-    }
+    } 
+     .category_img img {
+    width: 350px;
+    height: 250px;
+    margin: 30px 0;
+    object-fit: cover;
+}
 }
 
 /* New arrivals styles */
@@ -336,6 +351,10 @@
    flex-wrap: wrap;
    align-items: center;
    justify-content: center;
+   margin-right: 0;
+   padding-right: 0;
+   max-width: 1300px;
+   padding-left: 20px;
 }
 
 .new_items {
@@ -343,6 +362,9 @@
     height: 100%;
     margin-bottom: 70px;
     margin-top: 20px;
+    margin-right: 0;
+    padding-right: 0;
+    max-width: 1300px;
 }
 .new_info {
     width: 180px;
@@ -717,11 +739,6 @@ p.star {
         align-items: center;
         justify-content: center;
     }
-    /* .blog_meta, .blog_more {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
     .blog_more {
         color: #f12c2c;
         font-size: 14px;
@@ -736,19 +753,35 @@ p.star {
     }
     @media only screen and (max-width:1000px) {
         .blog_wrapper {
-            flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-around;
             flex-basis: 100%;
             margin-bottom: 20px;
         }
-        .blog_item {
-            padding-bottom: 40px;
+       
+        .blog_image img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        
+    }
+        
+    }
+    @media only screen and (max-width: 768px){
+        .blog_wrapper {
+            flex-direction: column;
+        }
+        .blog_image img {
+        width: 350px;
+        height: 250px;
+        object-fit: cover;
+    }
+     .blog_item {
+            padding-bottom: 30px;
         }
         .blog_image {
             padding-left: 0;
         }
-        
     }
     /* Newsletter style */
     
