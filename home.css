@@ -802,7 +802,7 @@ p.star {
     }
     .newsletter_text {
         color: #555;
-        padding-top: 0;
+        padding: 5px;
         margin-top: 0;
         text-transform: capitalize;
     }
