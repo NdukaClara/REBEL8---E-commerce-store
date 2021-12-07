@@ -1,4 +1,7 @@
 /* hero styles */
+#hero {
+    background: radial-gradient(#fff, rgb(194, 191, 191));
+}
 .row {
     display: flex;
     align-items: center;
@@ -7,10 +10,11 @@
 .col-2 {
     flex-basis: 40%;
     min-width: 300px;
+    
 }
 .col-2 img {
     max-width: 100%;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .hero_text {
    display: flex;
@@ -26,7 +30,7 @@
     
 }
 .hero_info {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 1.2;
     margin-left: 20px;
     
@@ -49,16 +53,15 @@
 .hero_btn:hover {
     background: #1e1e27;
 } 
-#hero {
-    background: radial-gradient(#fff, rgb(194, 191, 191));
-   
-}
 @media only screen and (max-width: 768px) {
     .row {
         flex-direction: column;
     }
     .col-2 {
         flex-basis: 100%;
+    }
+     .col-2 img {
+        padding: 10px 0;
     }
     .hero_text {
         text-align: center;
